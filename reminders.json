@@ -1,0 +1,184 @@
+{
+  "themes": {
+    "index": [
+      {
+        "who": "Wren",
+        "text": "A short stack is ready. Every card you learn gets a stamp."
+      },
+      {
+        "who": "Wren",
+        "text": "I set out {cards} for you. Got three minutes?"
+      },
+      {
+        "who": "Wren",
+        "text": "Fresh cards, sharp pencil, quiet desk. Ready when you are."
+      },
+      {
+        "who": "Wren",
+        "text": "{cards} are waiting on the desk. Let's stamp a few."
+      },
+      {
+        "who": "Folio",
+        "text": "Slow and steady wins it. Day {next} is ready for you. 🐢"
+      },
+      {
+        "who": "Folio",
+        "text": "{streak} days in a row! I'm keeping the pile tidy for day {next}."
+      },
+      {
+        "who": "Folio",
+        "text": "No rush. One card today still counts."
+      },
+      {
+        "who": "Biscuit",
+        "text": "I sniffed out {cards} for today. Come see!"
+      },
+      {
+        "who": "Biscuit",
+        "text": "My tail's wagging. Today's cards are ready. 🐶"
+      },
+      {
+        "who": "Biscuit",
+        "text": "Stuck on one yesterday? It's back today, and I brought a clue."
+      }
+    ],
+    "hop-quest": [
+      {
+        "who": "Hops",
+        "text": "The hill's ready for climbing. Hop up a step with me? 🐰"
+      },
+      {
+        "who": "Hops",
+        "text": "{cards} are lined up on the path. Let's hop to it!"
+      },
+      {
+        "who": "Hops",
+        "text": "One little hop today keeps us climbing."
+      },
+      {
+        "who": "Hops",
+        "text": "The sun's out and your cards are too. Let's go!"
+      },
+      {
+        "who": "Tuck",
+        "text": "{streak} days and counting. Day {next} is waiting in my shell. 🐢"
+      },
+      {
+        "who": "Tuck",
+        "text": "Slow and steady! A few cards today keeps the streak growing."
+      },
+      {
+        "who": "Tuck",
+        "text": "I counted {cards} ready for you. No hurry, just a few hops."
+      },
+      {
+        "who": "Bo",
+        "text": "Big hug and a fresh round, ready when you are. 🐻"
+      },
+      {
+        "who": "Bo",
+        "text": "Those tricky ones are back, and I've got clues for them."
+      },
+      {
+        "who": "Bo",
+        "text": "{cards} are waiting. We'll take them one paw at a time."
+      }
+    ],
+    "night-arcade": [
+      {
+        "who": "Bit",
+        "text": "Player one, your round is loaded. Press start! 🕹️"
+      },
+      {
+        "who": "Bit",
+        "text": "{cards} are on the board. Ready to clear them?"
+      },
+      {
+        "who": "Bit",
+        "text": "New round, high score waiting. Insert one minute to play."
+      },
+      {
+        "who": "Bit",
+        "text": "Level select is open. Pick a deck and let's play."
+      },
+      {
+        "who": "Volt",
+        "text": "Fully charged for day {next}! ⚡"
+      },
+      {
+        "who": "Volt",
+        "text": "{streak}-day streak, battery glowing. Let's keep the lights on."
+      },
+      {
+        "who": "Volt",
+        "text": "One quick round today powers up your streak."
+      },
+      {
+        "who": "Dot",
+        "text": "Beaming in! {cards} are ready to replay."
+      },
+      {
+        "who": "Dot",
+        "text": "I've got a boost for those tricky cards. Let's go!"
+      },
+      {
+        "who": "Dot",
+        "text": "Quick replay? A few cards and you're done."
+      }
+    ],
+    "gem-crew": [
+      {
+        "who": "Spark",
+        "text": "Your chest has room for today's gems. 💎"
+      },
+      {
+        "who": "Spark",
+        "text": "{cards} are ready to shine. Want to polish a few?"
+      },
+      {
+        "who": "Spark",
+        "text": "Every card you get right shines a little brighter."
+      },
+      {
+        "who": "Spark",
+        "text": "The treasure chest is open. Let's fill it!"
+      },
+      {
+        "who": "Moss",
+        "text": "{streak} days of growing! Day {next} is ready for you. 🌱"
+      },
+      {
+        "who": "Moss",
+        "text": "A little every day, and you'll keep growing."
+      },
+      {
+        "who": "Moss",
+        "text": "Just one card today keeps your streak sprouting."
+      },
+      {
+        "who": "Pebble",
+        "text": "Those rough gems are back for a polish. I've got clues!"
+      },
+      {
+        "who": "Pebble",
+        "text": "{cards} need a little shine. I'll cheer you on!"
+      },
+      {
+        "who": "Pebble",
+        "text": "Every gem needs a little polish. Today's yours."
+      }
+    ]
+  },
+  "any": [
+    "Two minutes now, remembered for months. Today's cards are ready.",
+    "Your verses missed you. {cards} are ready for a quick review.",
+    "You've studied {streak} days in a row! Make it {next}?",
+    "Small steps, big memory. A few cards are waiting.",
+    "Today's round is short and sweet. Want to jump in?",
+    "{cards} are ready. You know more of them than you think.",
+    "Quick check-in: your cards are ready whenever you are.",
+    "A few minutes of practice keeps it fresh. Let's go!",
+    "The ones you're still learning are back. You've got this.",
+    "Bus ride, line at lunch, or right now? Your cards fit anywhere."
+  ]
+}

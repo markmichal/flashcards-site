@@ -79,3 +79,32 @@ async function staleWhileRevalidate(req, name) {
     .catch(() => saved)
   return saved ?? fresh
 }
+
+// Daily reminders: the server sends { title, body }, and we show it.
+self.addEventListener('push', (event) => {
+  let data = {}
+  try {
+    data = event.data ? event.data.json() : {}
+  } catch {
+    data = { body: event.data ? event.data.text() : '' }
+  }
+  event.waitUntil(
+    self.registration.showNotification(data.title || 'Flashcards', {
+      body: data.body || 'Your cards are ready whenever you are.',
+      icon: '/icons/icon-192.png',
+      badge: '/icons/icon-192.png',
+      tag: 'daily-reminder', // a new one replaces yesterday's instead of piling up
+    }),
+  )
+})
+
+// Tapping a reminder opens the app (or brings it to the front).
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close()
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((wins) => {
+      const open = wins.find((w) => new URL(w.url).origin === self.location.origin)
+      return open ? open.focus() : self.clients.openWindow('/')
+    }),
+  )
+})
