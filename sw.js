@@ -11,7 +11,7 @@
 
 const SHELL = 'shell-v1'
 const ASSETS = 'assets-v1'
-const MEDIA = 'media-v2'
+const MEDIA = 'media-v1'
 
 self.addEventListener('install', () => self.skipWaiting())
 
@@ -30,8 +30,6 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return
   const url = new URL(req.url)
   if (url.origin !== self.location.origin) return
-  // The Sound Board lives in /soundboard/ and has its own service worker.
-  if (url.pathname.startsWith('/soundboard/')) return
 
   if (req.mode === 'navigate') {
     event.respondWith(page(req))
