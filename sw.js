@@ -11,7 +11,7 @@
 
 const SHELL = 'shell-v1'
 const ASSETS = 'assets-v1'
-const MEDIA = 'media-v1'
+const MEDIA = 'media-v2'
 
 self.addEventListener('install', () => self.skipWaiting())
 
