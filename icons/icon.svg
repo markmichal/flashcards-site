@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#ffd000"/>
+  <g transform="translate(256 256) scale(1) translate(-256 -256)">
+    <g transform="rotate(-5 256 350)">
+      <rect x="62" y="262" width="388" height="200" rx="12" fill="#1f1f47" opacity=".2" transform="translate(6 12)"/>
+      <rect x="62" y="262" width="388" height="200" rx="12" fill="#ffffff"/>
+      <line x1="62" y1="306" x2="450" y2="306" stroke="#e8734c" stroke-width="7"/>
+      <line x1="62" y1="350" x2="450" y2="350" stroke="#a9d0dc" stroke-width="5"/>
+      <line x1="62" y1="392" x2="450" y2="392" stroke="#a9d0dc" stroke-width="5"/>
+      <line x1="62" y1="434" x2="450" y2="434" stroke="#a9d0dc" stroke-width="5"/>
+    </g>
+    <svg x="86" y="-6" width="320" height="320" viewBox="0 0 200 200">
+
+<path d="M0 0" fill="#f0efee" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<path d="M100 156 L96 182 M96 182 L88 184 M96 182 L102 185 M114 154 L116 182 M116 182 L108 184 M116 182 L123 185" stroke="#1f1f47" stroke-width="5.1" stroke-linecap="round" fill="none"></path>
+<path d="M60 120 L22 96 L74 132 Z" fill="#f0efee" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<path d="M60 120 L140 112 L112 158 Z" fill="#ffffff" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<path d="M60 120 L112 158 L86 150 Z" fill="#e5e6e9" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<path d="M128 114 L150 64 L142 118 Z" fill="#ffffff" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<path d="M150 64 L172 70 L150 82 Z" fill="#ffffff" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<path d="M172 70 L188 75 L168 76 Z" fill="#ffd000" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<circle cx="157" cy="72" r="3" fill="#1f1f47" opacity="1"></circle>
+<path d="M0 0" stroke="#1f1f47" stroke-width="4.4" stroke-linecap="round" fill="none"></path>
+<path d="M74 120 L132 110 L96 90 Z" fill="#ffffff" stroke="#1f1f47" stroke-width="5.1" stroke-linejoin="round"></path>
+<path d="M92 106 L120 105 M96 99 L112 99" stroke="#84b7c6" stroke-width="3.4" stroke-linecap="round" fill="none"></path>
+<path d="M84 114 L126 110" stroke="#e8734c" stroke-width="4.1" stroke-linecap="round" fill="none"></path>
+<path d="M0 0" stroke="#1f1f47" stroke-width="5.1" stroke-linecap="round" fill="none"></path>
+<path d="M0 0" stroke="#56586a" stroke-width="11.9" stroke-linecap="round" fill="none"></path>
+<g opacity="0" font-family="Sora, sans-serif" font-weight="700" fill="#56586a">
+<text x="166" y="84" font-size="16">z</text>
+<text x="178" y="68" font-size="20">z</text>
+</g>
+</svg>
+  </g>
+</svg>
